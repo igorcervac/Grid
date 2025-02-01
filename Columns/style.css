@@ -1,0 +1,15 @@
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#content div {
+    background-color: #0af;
+    padding: 10px;
+}
+
+#content div:nth-child(even) {
+    background-color: #eee;
+}
